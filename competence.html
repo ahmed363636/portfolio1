@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section Compétences</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Reset et styles de base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+        }
+
+        /* Section Compétences */
+        .skills {
+            padding: 60px 5%;
+            background-color: #fff;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .skills h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+            color: #2c3e50;
+            font-family: 'Georgia', serif;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .skill {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #f4f4f9;
+            padding: 15px 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .skill:hover {
+            transform: translateY(-5px);
+        }
+
+        .skill i {
+            font-size: 24px;
+            color: #3498db;
+        }
+
+        .skill span {
+            font-size: 16px;
+            color: #2c3e50;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <!-- Section Compétences -->
+    <section class="skills">
+        <h2>Mes Compétences</h2>
+        <div class="skills-container">
+            <!-- Compétence 1 : HTML5 -->
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <span>HTML5</span>
+            </div>
+
+            <!-- Compétence 2 : CSS3 -->
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS3</span>
+            </div>
+
+            <!-- Compétence 3 : JavaScript -->
+            <div class="skill">
+                <i class="fab fa-js"></i>
+                <span>JavaScript</span>
+            </div>
+
+            <!-- Compétence 4 : React -->
+            <div class="skill">
+                <i class="fab fa-react"></i>
+                <span>React</span>
+            </div>
+
+            <!-- Compétence 5 : Node.js -->
+            <div class="skill">
+                <i class="fab fa-node-js"></i>
+                <span>Node.js</span>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section Recommandations</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Reset et styles de base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+        }
+
+        /* Section Recommandations */
+        .recommendations {
+            padding: 60px 5%;
+            background-color: #fff;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .recommendations h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+            color: #2c3e50;
+            font-family: 'Georgia', serif;
+        }
+
+        .recommendations-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .recommendation {
+            background-color: #f4f4f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .recommendation:hover {
+            transform: translateX(5px);
+        }
+
+        .recommendation p {
+            color: #555;
+            font-style: italic;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .recommendation-author {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .recommendation-author i {
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <!-- Section Recommandations -->
+    <section class="recommendations">
+        <h2>Recommandations</h2>
+        <div class="recommendations-container">
+            <!-- Recommandation 1 -->
+            <div class="recommendation">
+                <p>
+                    "Ahmed a développé une application de gestion de projets pour notre équipe en un temps record.
+                    Son professionnalisme et sa maîtrise des technologies modernes ont grandement impressionné toute l'équipe."
+                </p>
+                <div class="recommendation-author">
+                    <i class="fas fa-user"></i>
+                    <span>Fatima Zahra, Responsable Marketing</span>
+                </div>
+            </div>
+
+            <!-- Recommandation 2 -->
+            <div class="recommendation">
+                <p>
+                    "Travailler avec Ahmed sur notre site e-commerce a été une expérience exceptionnelle.
+                    Il a su traduire nos besoins en solutions techniques efficaces et esthétiques."
+                </p>
+                <div class="recommendation-author">
+                    <i class="fas fa-user"></i>
+                    <span>Karim Benali, Directeur Commercial</span>
+                </div>
+            </div>
+
+            <!-- Recommandation 3 -->
+            <div class="recommendation">
+                <p>
+                    "Ahmed est un développeur talentueux et rigoureux. Il a optimisé notre base de données,
+                    ce qui a amélioré les performances de notre application de 40%. Un vrai atout pour toute équipe technique."
+                </p>
+                <div class="recommendation-author">
+                    <i class="fas fa-user"></i>
+                    <span>Sofia Amrani, Ingénieure Logicielle</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
